@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.rating {
+    color: #ffd700;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+th, td {
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    margin: auto;
+}
+
+.ratingTbl {
+    padding: 2rem;
+
+}

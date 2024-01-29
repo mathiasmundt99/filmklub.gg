@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #696969;
+    color: white;
+}
+
+
+:root{
+    --stdPadding: 0px;
+    --stdMargin: 0px;
+}
+
+
+h1{
+    font-size: 64px;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+section{
+    padding: 1rem;
+}
+
+ul li {
+    font-size: 12px;
+      text-align: left;
+  }
