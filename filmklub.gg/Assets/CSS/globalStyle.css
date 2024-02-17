@@ -7,10 +7,11 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url('../images/felix-mooneeram-evlkOfkQ5rE-unsplash\ \(1\).jpg');
+    background-size: cover;
     background-color: #696969;
     color: white;
 }
-
 
 :root{
     --stdPadding: 0px;
@@ -38,3 +39,9 @@ ul li {
     font-size: 12px;
       text-align: left;
   }
+
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
