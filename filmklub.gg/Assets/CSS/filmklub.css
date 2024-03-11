@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.movieSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .movieCard {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    border: 3px solid white;
+  }
+
+.movieRankDiv{
+    display: flex;
+    border-right: 2px solid white;
+}
+
+.movieRank{
+    font-size: 60px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin: 0px;
+}
+
+.movieNameDiv{
+padding-bottom: 3rem;
+padding-left: 1rem;
+}
+
+.movieNameDiv p{
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.platformIcons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.moviePicture img{
+    display: flex;
+    width: 120px;
+    height: 170px;
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+.platformIcons img{
+    width: 50px; 
+    height: 50px; 
+    border: 1px solid gold;
+    margin-right: 0.5rem;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.fa-star {
+    color: gold; /* Set the color of the first icon to gold */
+}
+
+.fa-ticket {
+    color: red; /* Set the color of the second icon to red */
+}
